@@ -201,14 +201,15 @@ h3{
 footer{
   background-color:  hsl(243, 87%, 12%);
   color: #fff;
-  display: flex;
-  justify-content: space-between;
 }
 
 
 .ft-logo{
   display: flex;
   flex-direction: column;
+}
+.ft-logo > span{
+  margin: 10px;
 }
 .footer-logo{
   width: 70%;
@@ -218,3 +219,22 @@ li{
   margin: 5px;
 }
 
+.socials{
+  padding-top: 10px;
+  display: flex;
+  margin-right: 400px;
+}
+.socials a{
+  margin: 5px;
+}
+.ft-container{
+  padding-left: 50px;
+  padding-top: 50px ;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.ft-container >ul, .socials{
+  margin-top: 65px;
+}
