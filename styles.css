@@ -280,7 +280,6 @@ i{
   .top-nav ul {
     margin: 10px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
   }
 
