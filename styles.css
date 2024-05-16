@@ -30,7 +30,6 @@ nav ul {
   display: flex;
 }
 a {
-  font-family: "Raleway";
   color: hsl(240, 28%, 63%);
   margin: 20px;
   text-decoration: none;
@@ -40,6 +39,7 @@ a {
 }
 
 h1 {
+  font-family: 'Raleway';
   margin-top: 30px;
   font-size: 53px;
   margin-bottom: 10px;
@@ -297,8 +297,11 @@ i{
 
 
   h1{
-    font-size: 20px;
+    font-size: 22px;
 
+  }
+  p{
+    font-size: 14px;
   }
 
   .top-container{
@@ -319,4 +322,29 @@ i{
   .top-container, .container, .ft-container{
     margin: 35px;
   }
+
+  .section-one > input{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .section-one > button{
+    margin: 0;
+    width: 106%;
+  }
+  .section-two{
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .h1 > h1{
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  .quote{
+    width: 280px;
+  }
+  
 }
