@@ -283,7 +283,7 @@ i{
   margin-top: 65px;
 }
 
-@media only screen and (max-width: 406px){
+@media only screen and (max-width: 700px){
  
   header{
     height: 50px;
@@ -362,10 +362,15 @@ i{
     width: 106%;
   }
   .section-two{
+    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
   }
+  .h1{
+    margin-bottom: 0px;
+  }
   .container{
+    margin-bottom: 0px;
     gap: 30px;
     display: flex;
     flex-direction: column-reverse;
@@ -383,11 +388,48 @@ i{
   }
   .quote{
     text-align: left;
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 200px;
     padding: 10px;
   }
   .quote span{
     font-size: 11px;
+  }
+  .circle{
+    width: 15%;
+  }
+  .testimonial h5{
+    font-size: 11px;
+  }
+  .testimonial span{
+    font-size: 9px;
+  }
+  .section-three{
+    margin-top: 0px;
+  }
+  .before-footer{
+    display: flex;
+    flex-direction: column;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .h3-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+  }
+  .down-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .ft-container{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
   }
 }
