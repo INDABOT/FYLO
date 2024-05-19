@@ -54,7 +54,7 @@ p {
   color: hsl(243, 87%, 12%);
 }
 h2{
-  font-size:48px ;
+  font-size: 2.7rem ;
   margin: 0px;
   color: hsl(243, 87%, 12%);
 }
@@ -309,6 +309,9 @@ ul li .fa-brands{
   text-align: center;
   font-size: 1.2em;
   cursor: pointer;
+}
+h3{
+  font-size: 2.65rem;
 }
 
 
