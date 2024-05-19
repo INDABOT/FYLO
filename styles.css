@@ -313,6 +313,9 @@ ul li .fa-brands{
 h3{
   font-size: 2.65rem;
 }
+.second-img{
+margin: auto;
+}
 
 
 @media screen and (max-width: 1440px) {
@@ -418,6 +421,8 @@ h3 + p{
   }
 
   .top-container{
+    width: 90%;
+    margin:auto;
     display: flex;
     flex-direction: column-reverse;
   }
@@ -426,14 +431,15 @@ h3 + p{
     width: 300px;
     justify-content: center;
   }
-  .img-container{
+  /* .img-container{
     justify-content: center;
-  }
+  } */
   .img-container >img{
     width: 100%;
   }
   .top-container, .container, .ft-container{
-    margin: 35px;
+    width: 90%;
+    margin: 2px 35px;
   }
 
   .section-one > input{
@@ -445,6 +451,7 @@ h3 + p{
     width: 106%;
   }
   .section-two{
+    margin-top: 0;
     margin-bottom: 0px;
     display: flex;
     flex-direction: column;
@@ -511,10 +518,9 @@ h3 + p{
     margin-left: 10px;
   }
   .ft-container{
-    margin-left: 0px;
+    width: 90%;
+    margin: auto;
     align-items: flex-start;
-    margin-top: 0px;
-    margin-bottom: 0px;
     display: flex;
     flex-direction: column;
   }
@@ -531,5 +537,12 @@ h3 + p{
   }
   .footer-logo{
     filter: brightness(0) invert(1);
+  }
+  .second-img{
+    width: 350px;
+    margin-top: 0;
+  }
+  .ft-ul{  
+    margin:0px;
   }
 }
